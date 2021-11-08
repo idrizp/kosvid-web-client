@@ -50,7 +50,12 @@ const Home: NextPage = () => {
       <StatisticsList statistics={statistics} />
       <p>
         All data provided here is graciously provided by{" "}
-        <a className="link" href="https://ourworldindata.com" target="_blank">
+        <a
+          className="link"
+          href="https://ourworldindata.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           Our World In Data.
         </a>{" "}
         That data is aggregated by the{" "}
@@ -58,6 +63,7 @@ const Home: NextPage = () => {
           className="link"
           href="https://github.com/idrizp/kosvid-api"
           target="_blank"
+          rel="noreferrer"
         >
           kosvid api.
         </a>

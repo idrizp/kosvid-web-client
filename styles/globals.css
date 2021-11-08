@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.link {
+  color: rgb(30, 146, 255);
+  text-decoration: underline;
+}
